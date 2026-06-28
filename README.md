@@ -45,7 +45,7 @@ equivalent to SQL LEFT JOINs. Key cleaning steps included:
   fewer than 100 orders to avoid misleading percentage calculations 
   from statistically insignificant sample sizes.
 
-### Candidate's Choice, Monthly Late Delivery Trend Analysis
+### Candidate's Choice — Monthly Late Delivery Trend Analysis
 
 I added a Monthly Late Delivery Trend analysis that tracks the 
 percentage of late deliveries across each month from October 2016 
@@ -53,7 +53,7 @@ to August 2018.
 
 **Business Justification:**
 This feature adds specific business value because it answers a 
-critical question the static analysis cannot, is the late delivery 
+critical question the static analysis cannot — is the late delivery 
 problem getting worse or better over time? The analysis revealed 
 two major crisis periods:
 
@@ -213,32 +213,45 @@ include the following three sections at the top:
 * A 3-5 sentence summary of your findings.
 
 ### B. Project Links
-* **Link to Notebook:** (e.g., Google Colab, etc.). 
+* **Link to Notebook:** (e.g., Google Colab, etc.). *Ensure sharing permissions are set to "Anyone with the link can view".*
 * **Link to Dashboard:** (e.g., Tableau Public, etc.).
-* **Link to Presentation:** A link to a short slide deck (PDF/PPT).
+* **Link to Presentation:** A link to a short slide deck (PDF/PPT) AND (Optional) a 2-minute video walkthrough (YouTube) explaining your results.
 
 ### C. Technical Explanation
 * Briefly explain how you handled the "Data Cleaning".
 * Explain your "Candidate's Choice" addition.
 
+**Important Note on Code Submission:**
+* Upload your `.ipynb` notebook file to the repo.
+* **Crucial:** Also upload an **HTML or PDF export** of your notebook so we can see your charts even if GitHub fails to render the notebook code.
+* Once you are ready, please fill out the [Official Submission Form Here](https://forms.office.com/e/heitZ9PP7y) with your links
+
 ---
 
 ## 🛑 CRITICAL: Pre-Submission Checklist
 
+**Before you submit your form, you MUST complete this checklist.**
+
+> ⚠️ **WARNING:** If you miss any of these items, your submission will be flagged as "Incomplete" and you will **NOT** be invited to an interview. 
+>
+> **We do not accept "permission error" excuses. Test your links in Incognito Mode.**
+
 ### 1. Repository & Code Checks
-- [x] **My GitHub Repo is Public.**
+- [x] **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
 - [x] **I have uploaded the `.ipynb` notebook file.**
 - [x] **I have ALSO uploaded an HTML or PDF export** of the notebook.
-- [x] **I have NOT uploaded the massive raw dataset.**
+- [x] **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
 - [x] **My code uses Relative Paths.**
 
 ### 2. Deliverable Checks
-- [x] **My Dashboard link is publicly accessible.**
-- [x] **My Presentation link is publicly accessible.**
-- [x] **I have updated this `README.md` file.**
+- [x] **My Dashboard link is publicly accessible.** (No login required).
+- [x] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
+- [x] **I have updated this `README.md` file** with my Executive Summary and technical notes.
 
 ### 3. Completeness
 - [x] I have completed **User Stories 1-4**.
-- [x] I have completed the **"Candidate's Choice"** challenge.
+- [x] I have completed the **"Candidate's Choice"** challenge and explained it in the README.
 
-**✅ Submission ready!**
+**✅ Only when you have checked every box above, proceed to the submission form.**
+
+---
