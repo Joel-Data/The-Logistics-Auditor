@@ -1,4 +1,4 @@
-# Veridi Logistics — Delivery Performance Audit
+# Veridi Logistics: Delivery Performance Audit
 **By Joel Obinyebi**
 
 ---
