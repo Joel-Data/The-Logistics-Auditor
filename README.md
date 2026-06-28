@@ -10,7 +10,7 @@ of orders were delivered late with Northeast Brazil being the worst
 affected region. Alagoas state had the highest late delivery rate 
 at 23.93%. The data confirms the CEO's suspicion that late deliveries 
 directly impact customer satisfaction. On Time deliveries averaged 
-4.29 stars while Super Late deliveries averaged only 1.79 stars — 
+4.29 stars while Super Late deliveries averaged only 1.79 stars,
 a drop of 2.5 stars. Audio and Electronics categories had the highest 
 late delivery rates at 12-13% while Books and Telephony products 
 performed best at 3-4%. Monthly trend analysis revealed crisis periods 
@@ -50,7 +50,7 @@ to SQL LEFT JOINs. Key cleaning steps included:
   fewer than 100 orders to avoid misleading percentage calculations 
   from statistically insignificant sample sizes.
 
-### Candidate's Choice — Monthly Late Delivery Trend Analysis
+### Candidate's Choice: Monthly Late Delivery Trend Analysis
 
 I added a Monthly Late Delivery Trend analysis that tracks the 
 percentage of late deliveries across each month from October 2016 
@@ -58,7 +58,7 @@ to August 2018.
 
 **Business Justification:**
 This feature adds specific business value because it answers a 
-critical question the static analysis cannot — is the late delivery 
+critical question the static analysis cannot, is the late delivery 
 problem getting worse or better over time? The analysis revealed 
 two major crisis periods:
 
